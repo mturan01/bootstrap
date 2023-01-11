@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/extra.css" rel="stylesheet">
+    <title>Bootstrap 5 | 20_1.Ders</title>
+</head>
+
+<body>
+    <div>burada position:relative i gördük yani şunu yaptık position relative de oradan bağımsız olarak bir nesnenim yerini değiştirebiliriz asıl önemli nokta ise şuradadır. Yeri değişse bile eski yerinde o varmış gibi davranılır yani ekrandan da anlaşılacağı üzere yari değişti fakat box3 hemen box1 in yanın aglmedi çünkü hala orada o varmış gibi davranmaktadır ve style/css de de top ve left değerlerini verdik oda içinde bulunduğu kutuların bulunduğu konuma göre konum alınıyor. orada yazdığımız top 50% kodu o dark kutunun içinde geçerli olmaktadır. yani oardan aşağya yüzde elli in dedik.</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex bg-dark mt-5" style="height: 400px;">
+             <div class="box me-2">box 1</div>
+             <div class="box box2 me-2">box 2</div>
+             <div class="box me-2">box 3</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

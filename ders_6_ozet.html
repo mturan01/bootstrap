@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <title>Ders 6 Özet</title>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex bg-dark p-2  text-white">
+            <div class="p-2 bg-info">Flex İçerik</div>
+            <div class="p-2 bg-danger"><img src="img/3d11@2x.png"  class="img-fluid" alt=""></div>
+            <div class="p-2 bg-warning">Flex İçerik</div>
+        </div>
+    </div>
+<div>burada d-flex ve d-inlineiflex arasındaki farkı gördük d-flex satırın tümğnü kapsamakadır, d-inline-flex ise sadece kendi kapladığı alanı kapsamaktadır. buradada bir img atayarak flex lerinaslında ne kadar esnek olduğunu farketmiş olduk. flex zaten hali hazırda esnek demektir. ortdaki flex e resim koyunca göründüğü üzere yanındak iki flex de otomatik olarak onunla beraber onun uzunluğunda uzadı bu çok işimize yarayacaktır. Bu konular çok önemlidir.</div>
+    <div class="container">
+        <div class="d-inline-flex bg-dark p-2 my-3 text-white">
+            <div class="p-2 bg-info">Flex İçerik</div>
+            <div class="p-2 bg-danger">Flex İçerik</div>
+            <div class="p-2 bg-warning">Flex İçerik</div>
+        </div>
+    </div>
+
+
+
+<div>Şimdi aşadaki örnekte ise d-flex in reverse komutunu göreceğiz. görüldüğü üzere flex-row-reverse yaptğımız zaman en sağdan başlatmış oluyoruz. normalde de zaten default olrak flex-row dur. biz şunu untmamalıız d-flex flex-row-reverse yapamamız lazım yani bu kalıbu unutma. </div>
+    <div class="container">
+        <div class="d-flex flex-row-reverse bg-dark p-2 my-3 text-white">
+            <div class="p-2 bg-info">Flex İçerik</div>
+            <div class="p-2 bg-danger">Flex İçerik</div>
+            <div class="p-2 bg-warning">Flex İçerik</div>
+        </div>
+    </div>
+
+
+    <div>Şimdi aşadaki örnekte ise d-flex flex-column komutunu göreceğiz. Flex column da bu satırlaarımızı alt alta getirmemizi sağlamamktadır. </div>
+    <div class="container">
+        <div class="d-flex flex-column bg-dark p-2 my-3 text-white">
+            <div class="p-2 bg-info">Flex İçerik</div>
+            <div class="p-2 bg-danger">Flex İçerik</div>
+            <div class="p-2 bg-warning">Flex İçerik</div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

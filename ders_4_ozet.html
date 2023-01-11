@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div>Bu derte row komutunu öğrendik. row zaten satır demek biz row komutunu satır yapmak için kullanmaktayız. container içinde row oluşturuyoruz be içine column yani kutucuklarımızı yerleştiriyoruz. bootstrap bize toplam 12 tane kutucuk yerleştirmemizi sağlamaktadır daha fazlası olursa alt satıra geçmektedir.
+        biz aynı zmaanda bir satırı 12 eşit parçaya da bölebiliriz veya yarı yarıya veya 8 e 4 şeklinde de bölebiliriz. bu bizim isteğimize göre bize gelen işe göre değişim göstermketedir. Şimdi bir kaç örnek ile öğrendiklerimizi pekiştirelim.
+    </div>
+    <div class="container my-3">
+        <div class="row bg-dark p-2">
+            <div class="col-1 bg-danger p-3">İçerik</div>
+            <div class="col-1 bg-info p-3">İçerik</div>
+            <div class="col-1 bg-primary p-3">İçerik</div>
+            <div class="col-1 bg-warning p-3">İçerik</div>
+            <div class="col-1 bg-secondary p-3">İçerik</div>
+            <div class="col-1 bg-danger p-3">İçerik</div>
+            <div class="col-1 bg-primary p-3">İçerik</div>
+            <div class="col-1 bg-warning p-3">İçerik</div>
+            <div class="col-1 bg-secondary p-3">İçerik</div>
+            <div class="col-1 bg-danger p-3">İçerik</div>
+            <div class="col-1 bg-primary p-3">İçerik</div>
+            <div class="col-1 bg-danger p-3">İçerik</div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="row bg-dark p-2">
+            <div class="col-6 bg-danger p-3">İçerik</div>
+            <div class="col-6 bg-info p-3">İçerik</div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="row bg-dark p-2">
+            <div class="col-4 bg-danger p-3">İçerik</div>
+            <div class="col-4 bg-info p-3">İçerik</div>
+            <div class="col-4 bg-primary p-3">İçerik</div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="row bg-dark p-2">
+            <div class="col-3 bg-danger p-3">İçerik</div>
+            <div class="col-3 bg-info p-3">İçerik</div>
+            <div class="col-3 bg-primary p-3">İçerik</div>
+            <div class="col-3 bg-secondary p-3">İçerik</div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="row bg-dark p-2">
+            <div class="col-3 bg-danger p-3">İçerik</div>
+            <div class="col-9 bg-info p-3">
+                <div class="row">
+                    <div class="col-6 bg-danger">İçerik-6</div>
+                     <div class="col-6 bg-danger">İçerik-6</div>
+                </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="row row-cols-4 bg-dark p-2"> <!-- row-cols-4 demek yani altta yazılan satıları 4 e böl eğer dörde böl denmesine ragmen 5 satır varsa diğer satur alt satıra geçmektedir. -->
+            <div class="col bg-danger p-3">İçerik</div>
+            <div class="col bg-info p-3">İçerik</div>
+            <div class="col bg-primary p-3">İçerik</div>
+            <div class="col bg-secondary p-3">İçerik</div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-3">
+        <div class="row bg-dark p-2">
+            <div class="col-3 col-md-4 col-lg-6 bg-danger p-3">İçerik</div>
+            <div class="col-3 col-md-4 col-lg-6 bg-info p-3">İçerik</div>
+            <div class="col-3 col-md-4 col-lg-6 bg-primary p-3">İçerik</div>
+            <div class="col-3 col-md-4 col-lg-6 bg-secondary p-3">İçerik</div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
